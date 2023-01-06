@@ -1,0 +1,132 @@
+.header{
+    background-image: url('../images/banner/banner1.png');
+    height:808px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+*{
+    margin:0;
+}
+.image{
+    display:flex;
+    margin:200px;
+    justify-content:center;
+    align-items: center;
+}
+.text{
+    margin-left:200px;
+}
+.container{
+    padding-left:900px;
+    padding-top:400px;
+    padding-right:200px;
+}
+.btn-primary{
+    color:#FFFFFF;
+    font-Weight:700;
+    font-size:20px;
+    height: 64px;
+    Border:0;
+    padding:18px 35px;
+    border-radius: 5px;
+    background-color:#FD6E0A;
+}
+.about-info-container{
+    display:flex;
+    justify-content: space-around;
+    margin-top:50px;
+    margin-left:200px;
+    margin-right:200px;
+    margin-bottom:200px;
+}
+.info-title{
+    font-Size:20px;
+    color:#757575;
+}
+.info-description{
+    font-Weight:700;
+    font-Size:20px;
+    color:#474747;
+}
+.tick{
+    color:green;
+}
+.plan{
+    margin-top:200px;
+    text-align:center;
+}
+.gradient{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1140px;
+    height: 300px;
+    margin:200px;
+}
+.image1 {
+    position: relative;
+  }
+  .image2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+.positive{
+    color:white;
+    font-weight: 700;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.btn-secondary{
+    color:#FD6E0A;
+    font-Weight:700;
+    font-size:20px;
+    height: 64px;
+    Border:0;
+    padding:18px 35px;
+    border-radius: 5px;
+    background-color:#FFFFFF;
+}
+.design{
+    background-color: black;
+    padding:40px;
+}
+.section-title{
+    text-align:center;
+    margin-bottom:20px;
+    font-weight:700;
+    font-size:35px;
+}
+.section-description{
+    font-size:18px;
+    margin-bottom:30px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact{
+    display:flex;
+    color:white;
+    gap:100px;
+    padding:130px 200px;
+}
+.contact input[type="email"]{
+    margin-bottom:24px;
+    border:2px solid white;
+    border-radius:5px;
+    width:120px;
+    padding: 18px 30px;
+    background-color: black;
+    color:#FFFFFF;
+}
+input{
+    height:20px;
+}
+.contact a{
+    text-decoration: none;
+}
